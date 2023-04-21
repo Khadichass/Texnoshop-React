@@ -1,3 +1,8 @@
+:root {
+  --blue: rgb(0, 132, 255);
+  --grey: #333;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +30,7 @@ body {
   font-size: 26px;
   font-family: sans-serif;
   font-weight: 300;
-  color: #4d96ff;
+  color: var(--blue);
   margin-bottom: 15px;
 }
 
@@ -38,20 +43,19 @@ body {
 
 .phoneRight > button {
   padding: 15px 45px;
-  background-color: #4d96ff;
-  border: 2px solid #4d96ff;
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
   border-radius: 5px;
   font-size: 18px;
   color: white;
 }
 /* Phone section */
 
-/* Offer section */
-
-.offerSection {
+.secondSection {
   background-color: rgb(224, 221, 221);
 }
 
+/* Offer section */
 .offerContainers {
   display: flex;
   justify-content: center;
@@ -67,7 +71,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .banner > img {
-  width: 420px;
+  width: 400px;
   border-radius: 7px;
 }
 
@@ -79,7 +83,7 @@ body {
 }
 
 .bannerText > h2 {
-  color: #4d96ff;
+  color: rgb(0, 132, 255);
   font-size: 20px;
   font-weight: 300;
 }
@@ -89,3 +93,17 @@ body {
   font-weight: 500;
 }
 /* Offer section */
+
+/* New Arrivals section */
+.arrivalsText {
+  text-align: center;
+}
+
+.arrivalsText {
+  color: #333;
+}
+
+.arrivalsText > span {
+  color: var(--blue);
+}
+/* New Arrivals section */

@@ -1,3 +1,8 @@
+:root {
+  --blue: rgb(0, 132, 255);
+  --grey: #333;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #4d96ff;
+  background-color: var(--blue);
   padding: 10px;
 }
 
