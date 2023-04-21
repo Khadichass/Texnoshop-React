@@ -41,3 +41,35 @@
   color: white;
 }
 /* Phone section */
+
+/* Offer section */
+
+.offerSection {
+  background-color: rgb(224, 221, 221);
+}
+
+.offerContainers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
+}
+
+.banner {
+  position: relative;
+  border: 2px solid black;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.banner > img {
+  width: 400px;
+  border-radius: 7px;
+}
+
+.bannerText {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+}
+/* Offer section */
