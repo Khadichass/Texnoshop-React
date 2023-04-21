@@ -1,5 +1,10 @@
+import Header from "./layouts/Header";
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
