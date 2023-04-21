@@ -19,7 +19,7 @@ function Homepage() {
 
       {/* Phone section */}
       <div className="phoneSection">
-        <img src={mainPhone} className="logo" alt="phone" />
+        <img src={mainPhone} className="phone" alt="phone" />
         <div className="phoneRight">
           <h1>Upto 50% Off </h1>
           <p>Smartphones</p>

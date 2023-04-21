@@ -7,6 +7,37 @@
 /* Phone section */
 .phoneSection {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+  margin: 80px;
 }
 
+.phoneSection > img {
+  height: 400px;
+}
+
+.phoneRight > h1 {
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #4d96ff;
+  margin-bottom: 15px;
+}
+
+.phoneRight > p {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.phoneRight > button {
+  padding: 15px 45px;
+  background-color: #4d96ff;
+  border: 2px solid #4d96ff;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+}
 /* Phone section */
