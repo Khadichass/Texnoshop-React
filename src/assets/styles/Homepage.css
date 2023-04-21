@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 /* Phone section */
 .phoneSection {
   display: flex;
@@ -63,13 +67,25 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .banner > img {
-  width: 400px;
+  width: 420px;
   border-radius: 7px;
 }
 
 .bannerText {
   position: absolute;
-  top: 40%;
+  top: 43%;
   left: 20px;
+  transform: rotate(40deg);
+}
+
+.bannerText > h2 {
+  color: #4d96ff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.bannerText > p {
+  font-size: 26px;
+  font-weight: 500;
 }
 /* Offer section */

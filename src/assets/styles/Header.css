@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 /* Logo and text side */
 .header {
   display: flex;
@@ -26,7 +30,6 @@
 
 .logoText > h1 {
   color: white;
-  font-family: sans-serif;
   font-size: 26px;
 }
 /* Logo and text side */
@@ -52,6 +55,7 @@
 .search {
   font-size: 20px;
   padding: 0 15px;
+  cursor: pointer;
 }
 /* Search side */
 
