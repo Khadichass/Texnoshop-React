@@ -59,78 +59,60 @@ function Homepage() {
         <h2 className="arrivalsText">
           New <span>Arrivals</span>
         </h2>
-        <div>
+        <div className="arrivalsSection">
           <div className="arrivalContainer">
             <img src={arrival1} alt="" />
             <div className="arrivaltext">
               <h3>HD television</h3>
-              <p>
-                $249.99{" "}
-                <span>
-                  <del>$399.99</del>
-                </span>
+              <p className="pspan">
+                $249.99 <span>$399.99</span>
               </p>
             </div>
           </div>
           <div className="arrivalContainer">
             <img src={arrival2} alt="" />
-            <h3>HD television</h3>
-            <p>
-              $249.99{" "}
-              <span>
-                <del>$399.99</del>
-              </span>
-            </p>
+            <div className="arrivaltext">
+              <h3>Lenovo Laptop</h3>
+              <p className="pspan">
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
           </div>
           <div className="arrivalContainer">
             <img src={arrival3} alt="" />
-            <h3>HD television</h3>
-            <p>
-              $249.99{" "}
-              <span>
-                <del>$399.99</del>
-              </span>
-            </p>
+            <div className="arrivaltext">
+              <h3>New Smartphone</h3>
+              <p className="pspan">
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
           </div>
-          <div>
+          <div className="arrivalContainer">
             <img src={arrival4} alt="" />
-            <h3>HD television</h3>
-            <p>
-              $249.99{" "}
-              <span>
-                <del>$399.99</del>
-              </span>
-            </p>
+            <div className="arrivaltext">
+              <h3>New Prineter</h3>
+              <p className="pspan">
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
           </div>
-          <div>
-            <img src={arrival6} alt="" />
-            <h3>HD television</h3>
-            <p>
-              $249.99{" "}
-              <span>
-                <del>$399.99</del>
-              </span>
-            </p>
-          </div>
-          <div>
+          <div className="arrivalContainer">
             <img src={arrival5} alt="" />
-            <h3>HD television</h3>
-            <p>
-              $249.99{" "}
-              <span>
-                <del>$399.99</del>
-              </span>
-            </p>
+            <div className="arrivaltext">
+              <h3>New Headphones</h3>
+              <p className="pspan">
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
           </div>
-          <div>
-            <img src={arrival1} alt="" />
-            <h3>HD television</h3>
-            <p>
-              $249.99{" "}
-              <span>
-                <del>$399.99</del>
-              </span>
-            </p>
+          <div className="arrivalContainer">
+            <img src={arrival6} alt="" />
+            <div className="arrivaltext">
+              <h3>New Speakers</h3>
+              <p className="pspan">
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
           </div>
         </div>
         {/* New Arrivals section */}

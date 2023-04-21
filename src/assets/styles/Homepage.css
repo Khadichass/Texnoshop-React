@@ -106,4 +106,50 @@ body {
 .arrivalsText > span {
   color: var(--blue);
 }
+
+.arrivalsSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+}
+
+.arrivalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 380px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.arrivalContainer > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 7px;
+}
+
+.arrivaltext > h3 {
+  width: 99%;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: var(--grey);
+}
+
+.arrivaltext > p {
+  color: var(--blue);
+  font-size: 20px;
+}
+
+.pspan > span {
+  color: var(--grey);
+  text-decoration: line-through;
+  font-size: 16px;
+}
 /* New Arrivals section */
