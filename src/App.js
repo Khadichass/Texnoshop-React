@@ -1,8 +1,9 @@
-import Header from "./layouts/Header";
+import Homepage from "./pages/Homepage";
+import "./assets/styles/Header.css";
 function App() {
   return (
     <div>
-      <Header />
+      <Homepage />
     </div>
   );
 }
