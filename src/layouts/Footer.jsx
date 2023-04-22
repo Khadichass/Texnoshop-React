@@ -1,11 +1,16 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
+
 import logo from "../assets/images/photo_2022-11-20_12-15-08-removebg-preview.png";
 import cards from "../assets/images/card_img.png";
+
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 function Footer() {
+  const loc = useLocation();
+
   return (
     <div className="footer">
       <div className="linkSection">
@@ -19,8 +24,30 @@ function Footer() {
         {/* Links */}
         <div className="pageLinks">
           <ul className="ulLinks">
-            <li>Home</li>
-            <li>About</li>
+            <li>
+              <Link
+                to={"/"}
+                style={
+                  loc.pathname == "/"
+                    ? { color: "#1C64F2" }
+                    : { color: "6B7280" }
+                }
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={"/about"}
+                style={
+                  loc.pathname == "/about"
+                    ? { color: "#1C64F2" }
+                    : { color: "6B7280" }
+                }
+              >
+                About
+              </Link>
+            </li>
             <li>Products</li>
             <li>Contact</li>
             <li>Login</li>
