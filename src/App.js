@@ -8,16 +8,16 @@ import "./assets/styles/Header.css";
 import "./assets/styles/Homepage.css";
 import "./assets/styles/Footer.css";
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
-
-{
-  /* <Router>
-  <Routes>
-    <Route path="/" element={<Homepage />} />
-    <Route path="/about" element={<About />} />
-  </Routes>
-</Router>; */
-}
