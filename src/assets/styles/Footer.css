@@ -75,7 +75,22 @@ body {
 
 .lastSection {
   background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  gap: 220px;
 }
 
 /* Text Section */
+.lastText > h1 {
+  color: var(--grey);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 16px;
+}
+
+h1 > span {
+  color: var(--blue);
+}
 /* Text Section */

@@ -41,7 +41,7 @@ function Footer() {
       </div>
       <div className="lastSection">
         {/* Text Section */}
-        <div>
+        <div className="lastText">
           <h1>
             Created By <span>MagicSoft Group </span>| All Rights Reserved!
           </h1>
