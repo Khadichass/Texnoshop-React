@@ -101,6 +101,7 @@ body {
 
 .arrivalsText {
   color: #333;
+  font-size: 30px;
 }
 
 .arrivalsText > span {

@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../layouts/Header";
+import Footer from "../layouts/Footer";
 
-import logo from "../assets/images/photo_2022-11-20_12-15-08-removebg-preview.png";
 import mainPhone from "../assets/images/home-img-1.jpg";
 import banner1 from "../assets/images/banner-1.jpg";
 import banner2 from "../assets/images/banner-2.jpg";
@@ -117,6 +117,8 @@ function Homepage() {
         </div>
         {/* New Arrivals section */}
       </div>
+
+      <Footer />
     </div>
   );
 }
