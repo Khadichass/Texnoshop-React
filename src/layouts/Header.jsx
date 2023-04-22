@@ -1,14 +1,11 @@
 import React from "react";
 import logo from "../assets/images/photo_2022-11-20_12-15-08-removebg-preview.png";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
-
-icon({ name: "user", style: "solid" });
-icon({ name: "bars", style: "solid" });
-icon({ name: "heart", style: "solid" });
-icon({ name: "cart-shopping", style: "solid" });
-icon({ name: "magnifying-glass", style: "solid" });
+import { FaSearch } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
+import { FaUserAlt } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
 function Header() {
   return (
     <div className="header">
@@ -27,31 +24,16 @@ function Header() {
           id="search"
           placeholder="search here..."
         />
-        <FontAwesomeIcon
-          className="search"
-          icon={icon({ name: "magnifying-glass", style: "solid" })}
-        />
+        <FaSearch className="search" />
       </div>
       {/* Search side */}
 
       {/* Icons side */}
       <div className="icons">
-        <FontAwesomeIcon
-          className="bars"
-          icon={icon({ name: "bars", style: "solid" })}
-        />
-        <FontAwesomeIcon
-          className="user"
-          icon={icon({ name: "user", style: "solid" })}
-        />
-        <FontAwesomeIcon
-          className="heart"
-          icon={icon({ name: "heart", style: "solid" })}
-        />
-        <FontAwesomeIcon
-          className="cart"
-          icon={icon({ name: "cart-shopping", style: "solid" })}
-        />
+        <FaBars className="bars" />
+        <FaUserAlt className="user" />
+        <FaHeart className="heart" />
+        <FaShoppingCart className="cart" />
       </div>
       {/* Icons side */}
     </div>

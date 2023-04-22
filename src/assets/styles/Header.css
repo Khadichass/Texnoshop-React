@@ -59,7 +59,7 @@ body {
 
 .search {
   font-size: 20px;
-  padding: 0 15px;
+  margin-right: 10px;
   cursor: pointer;
 }
 /* Search side */
