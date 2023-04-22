@@ -12,3 +12,44 @@
 body {
   font-family: sans-serif;
 }
+
+.linkSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--grey);
+  width: 100%;
+}
+
+/* Logo and text side */
+.logoText {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo {
+  width: 33px;
+  height: 33px;
+}
+
+.logoText > h1 {
+  color: white;
+  font-size: 26px;
+}
+/* Logo and text side */
+
+/* Page links section*/
+.pageLinks > ul {
+  display: flex;
+  list-style: none;
+}
+
+/* Page links section*/
+
+.lastSection {
+  background-color: aliceblue;
+}
+
+/* Text Section */
+/* Text Section */

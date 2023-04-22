@@ -60,7 +60,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   padding: 60px;
 }
 
@@ -71,7 +71,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .banner > img {
-  width: 400px;
+  width: 385px;
   border-radius: 7px;
 }
 
@@ -101,7 +101,7 @@ body {
 
 .arrivalsText {
   color: #333;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .arrivalsText > span {
@@ -114,7 +114,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 30px;
+  padding: 40px;
 }
 
 .arrivalContainer {

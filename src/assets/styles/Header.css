@@ -13,7 +13,6 @@ body {
   font-family: sans-serif;
 }
 
-/* Logo and text side */
 .header {
   display: flex;
   align-items: center;
@@ -22,6 +21,7 @@ body {
   padding: 10px;
 }
 
+/* Logo and text side */
 .logoText {
   display: flex;
   align-items: center;
