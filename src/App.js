@@ -3,15 +3,17 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Homepage from "./pages/Homepage";
 import About from "./pages/Aboutpage";
+import Products from "./pages/Productspage";
+import Contact from "./pages/Contactpage";
+import Login from "./pages/Loginpage";
+import Register from "./pages/Registerpage";
+import Cart from "./pages/Cartpage";
 
 import "./assets/styles/Header.css";
 import "./assets/styles/Homepage.css";
+import "./assets/styles/Aboutpage.css";
 import "./assets/styles/Footer.css";
-import Products from "./pages/Productspage";
-import Register from "./pages/Registerpage";
-import Contact from "./pages/Contactpage";
-import Login from "./pages/Loginpage";
-import Cart from "./pages/Cartpage";
+
 function App() {
   return (
     <div>

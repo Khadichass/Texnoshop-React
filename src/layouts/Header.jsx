@@ -6,6 +6,7 @@ import { FaBars } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
+
 function Header() {
   return (
     <div className="header">

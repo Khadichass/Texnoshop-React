@@ -3,15 +3,18 @@ import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
 
 import mainPhone from "../assets/images/home-img-1.jpg";
+
 import banner1 from "../assets/images/banner-1.jpg";
 import banner2 from "../assets/images/banner-2.jpg";
 import banner3 from "../assets/images/banner-3.jpg";
+
 import arrival1 from "../assets/images/arrival-1.jpg";
 import arrival2 from "../assets/images/arrival-2.jpg";
 import arrival3 from "../assets/images/arrival-3.jpg";
 import arrival4 from "../assets/images/arrival-4.jpg";
 import arrival5 from "../assets/images/arrival-5.jpg";
 import arrival6 from "../assets/images/arrival-6.jpg";
+
 function Homepage() {
   return (
     <div>
