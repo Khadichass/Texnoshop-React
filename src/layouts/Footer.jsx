@@ -48,11 +48,66 @@ function Footer() {
                 About
               </Link>
             </li>
-            <li>Products</li>
-            <li>Contact</li>
-            <li>Login</li>
-            <li>Register</li>
-            <li>Cart</li>
+            <li>
+              <Link
+                to={"/products"}
+                style={
+                  loc.pathname == "/about"
+                    ? { color: "#1C64F2" }
+                    : { color: "6B7280" }
+                }
+              >
+                Products
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={"/contact"}
+                style={
+                  loc.pathname == "/about"
+                    ? { color: "#1C64F2" }
+                    : { color: "6B7280" }
+                }
+              >
+                Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={"/login"}
+                style={
+                  loc.pathname == "/about"
+                    ? { color: "#1C64F2" }
+                    : { color: "6B7280" }
+                }
+              >
+                Login
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={"/register"}
+                style={
+                  loc.pathname == "/about"
+                    ? { color: "#1C64F2" }
+                    : { color: "6B7280" }
+                }
+              >
+                Register
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={"/cart"}
+                style={
+                  loc.pathname == "/about"
+                    ? { color: "#1C64F2" }
+                    : { color: "6B7280" }
+                }
+              >
+                Cart
+              </Link>
+            </li>
           </ul>
         </div>
         {/* Links */}
