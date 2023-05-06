@@ -4,6 +4,9 @@ import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
 
 import about from "../assets/images/about-img.png";
+import client1 from "../assets/images/pic-1.png";
+import client2 from "../assets/images/pic-2.png";
+import client3 from "../assets/images/pic-3.png";
 function About() {
   return (
     <div>
@@ -73,8 +76,40 @@ function About() {
         {/*Secondpart section */}
 
         {/*Clients review section */}
+        <h2 className="review_h2">
+          Clients <span>Review</span>
+        </h2>
         <div className="review">
-          <div></div>
+          <div className="card">
+            <img src={client1} alt="photo" />
+            <h3>John Deo</h3>
+            <h4>Designer</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              culpa voluptates recusandae explicabo aut placeat vel incidunt.
+              Itaque qui omnis magni dolores, odit.
+            </p>
+          </div>
+          <div className="card">
+            <img src={client2} alt="photo" />
+            <h3>John Deo</h3>
+            <h4>Designer</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              culpa voluptates recusandae explicabo aut placeat vel incidunt.
+              Itaque qui omnis magni dolores, odit.
+            </p>
+          </div>
+          <div className="card">
+            <img src={client3} alt="photo" />
+            <h3>John Deo</h3>
+            <h4>Designer</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              culpa voluptates recusandae explicabo aut placeat vel incidunt.
+              Itaque qui omnis magni dolores, odit.
+            </p>
+          </div>
         </div>
         {/*Clients review section */}
       </div>
