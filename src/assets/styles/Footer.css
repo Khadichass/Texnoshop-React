@@ -54,6 +54,10 @@ body {
   font-size: 18px;
 }
 
+li > Link {
+  text-decoration: overline none;
+}
+
 /* Page links section*/
 
 /* Social Media icons */
