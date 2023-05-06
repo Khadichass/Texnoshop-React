@@ -19,10 +19,11 @@ body {
   font-family: Inter, sans-serif;
 }
 
-/* First part style */
 .about {
   background-color: rgb(224, 221, 221);
 }
+
+/* First part style */
 .firstpart {
   display: flex;
   padding: 30px;

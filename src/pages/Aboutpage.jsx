@@ -9,6 +9,7 @@ function About() {
     <div>
       <Header />
       <div className="about">
+        {/*Firstpart section */}
         <div className="firstpart">
           <div className="firstpart_left">
             <img src={about} alt="about " />
@@ -30,12 +31,14 @@ function About() {
             <button>Read More</button>
           </div>
         </div>
+        {/*Firstpart section */}
 
+        {/*Secondpart section */}
         <div className="secondpart">
           <h2 className="secondpart_h2">
             Question & <span>Answers</span>
           </h2>
-
+          {/*Form section */}
           <form>
             <select name="question1" id="question1">
               <option value="How To Make Websites?">
@@ -65,7 +68,15 @@ function About() {
               </option>
             </select>
           </form>
+          {/*Form section */}
         </div>
+        {/*Secondpart section */}
+
+        {/*Clients review section */}
+        <div className="review">
+          <div></div>
+        </div>
+        {/*Clients review section */}
       </div>
       <Footer />
     </div>
