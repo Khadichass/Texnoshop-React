@@ -19,6 +19,10 @@ body {
   font-family: Inter, sans-serif;
 }
 
+.products {
+  background-color: rgb(224, 221, 221);
+}
 .products_h1 {
   text-align: center;
+  padding: 40px;
 }

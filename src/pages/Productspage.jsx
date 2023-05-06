@@ -11,6 +11,7 @@ function Products() {
         <h1 className="products_h1">
           Your <span>Products</span>
         </h1>
+        <div></div>
       </div>
       <Footer />
     </div>
