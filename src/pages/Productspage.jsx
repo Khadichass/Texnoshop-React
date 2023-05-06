@@ -7,7 +7,11 @@ function Products() {
   return (
     <div>
       <Header />
-      <div>Products</div>
+      <div>
+        <h1 className="products_h1">
+          Your <span>Products</span>
+        </h1>
+      </div>
       <Footer />
     </div>
   );
