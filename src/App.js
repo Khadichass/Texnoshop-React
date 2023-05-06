@@ -12,6 +12,7 @@ import Cart from "./pages/Cartpage";
 import "./assets/styles/Header.css";
 import "./assets/styles/Homepage.css";
 import "./assets/styles/Aboutpage.css";
+import "./assets/styles/Productspage.css";
 import "./assets/styles/Footer.css";
 
 function App() {
