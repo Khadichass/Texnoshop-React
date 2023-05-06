@@ -30,6 +30,42 @@ function About() {
             <button>Read More</button>
           </div>
         </div>
+
+        <div className="secondpart">
+          <h2>
+            Question & <span>Answers</span>
+          </h2>
+
+          <form>
+            <select name="question1" id="question1">
+              <option value="How To Make Websites?">
+                How To Make Websites?
+              </option>
+            </select>
+
+            <select name="question2" id="question2">
+              <option value="How To Place Order Online?">
+                How To Place Order Online?
+              </option>
+            </select>
+
+            <select name="question3" id="question3">
+              <option value="How To Pay Online?">How To Pay Online?</option>
+            </select>
+
+            <select name="question4" id="question4">
+              <option value="Is Online Payment Safe?">
+                Is Online Payment Safe?
+              </option>
+            </select>
+
+            <select name="question5" id="question5">
+              <option value="How To Contact Servise Canter?">
+                How To Contact Servise Canter?
+              </option>
+            </select>
+          </form>
+        </div>
       </div>
       <Footer />
     </div>
