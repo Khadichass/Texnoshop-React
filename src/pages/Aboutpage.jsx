@@ -32,7 +32,7 @@ function About() {
         </div>
 
         <div className="secondpart">
-          <h2>
+          <h2 className="secondpart_h2">
             Question & <span>Answers</span>
           </h2>
 

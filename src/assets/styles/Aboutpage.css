@@ -14,10 +14,12 @@
   src: url(../fonts/Inter-Regular.eot), url(../fonts/Inter-Regular.ttf),
     url(../fonts/Inter-Regular.woff), url(../fonts/Inter-Regular.woff2);
 }
+
 body {
   font-family: Inter, sans-serif;
 }
 
+/* First part style */
 .about {
   background-color: rgb(224, 221, 221);
 }
@@ -59,3 +61,40 @@ body {
   border-radius: 5px;
   font-size: 17px;
 }
+/*/ First part style */
+
+/* Second part style */
+.secondpart {
+  padding: 25px 80px;
+}
+
+.secondpart > .secondpart_h2 {
+  color: var(--grey);
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 34px;
+}
+
+.secondpart_h2 > span {
+  color: var(--blue);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 25%;
+}
+
+form > select {
+  width: 100%;
+  justify-content: center;
+  margin: 10px;
+  background-color: var(--grey);
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+/*/ Second part style */
