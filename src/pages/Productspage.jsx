@@ -19,7 +19,19 @@ function Products() {
           Your <span>Products</span>
         </h1>
         <div>
-          <div></div>
+          <div>
+            <div>
+              <img src={product1} alt="product1" />
+            </div>
+            <div>
+              <h2>Smartphone</h2>
+              <h3>Quantity:</h3>
+              <input type="text" />
+              <p>
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
