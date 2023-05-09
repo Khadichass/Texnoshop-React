@@ -29,8 +29,8 @@ function Footer() {
                 to={"/"}
                 style={
                   loc.pathname == "/"
-                    ? { color: "#1C64F2" }
-                    : { color: "6B7280" }
+                    ? { color: "#1C64F2", textDecoration: "none" }
+                    : { color: "6B7280", textDecoration: "none" }
                 }
               >
                 Home
