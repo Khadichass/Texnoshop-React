@@ -41,8 +41,8 @@ function Footer() {
                 to={"/about"}
                 style={
                   loc.pathname == "/about"
-                    ? { color: "#1C64F2" }
-                    : { color: "6B7280" }
+                    ? { color: "#1C64F2", textDecoration: "none" }
+                    : { color: "6B7280", textDecoration: "none" }
                 }
               >
                 About
@@ -53,8 +53,8 @@ function Footer() {
                 to={"/products"}
                 style={
                   loc.pathname == "/about"
-                    ? { color: "#1C64F2" }
-                    : { color: "6B7280" }
+                    ? { color: "#1C64F2", textDecoration: "none" }
+                    : { color: "6B7280", textDecoration: "none" }
                 }
               >
                 Products
@@ -65,8 +65,8 @@ function Footer() {
                 to={"/contact"}
                 style={
                   loc.pathname == "/about"
-                    ? { color: "#1C64F2" }
-                    : { color: "6B7280" }
+                    ? { color: "#1C64F2", textDecoration: "none" }
+                    : { color: "6B7280", textDecoration: "none" }
                 }
               >
                 Contact
@@ -77,8 +77,8 @@ function Footer() {
                 to={"/login"}
                 style={
                   loc.pathname == "/about"
-                    ? { color: "#1C64F2" }
-                    : { color: "6B7280" }
+                    ? { color: "#1C64F2", textDecoration: "none" }
+                    : { color: "6B7280", textDecoration: "none" }
                 }
               >
                 Login
@@ -89,8 +89,8 @@ function Footer() {
                 to={"/register"}
                 style={
                   loc.pathname == "/about"
-                    ? { color: "#1C64F2" }
-                    : { color: "6B7280" }
+                    ? { color: "#1C64F2", textDecoration: "none" }
+                    : { color: "6B7280", textDecoration: "none" }
                 }
               >
                 Register
@@ -101,8 +101,8 @@ function Footer() {
                 to={"/cart"}
                 style={
                   loc.pathname == "/about"
-                    ? { color: "#1C64F2" }
-                    : { color: "6B7280" }
+                    ? { color: "#1C64F2", textDecoration: "none" }
+                    : { color: "6B7280", textDecoration: "none" }
                 }
               >
                 Cart
