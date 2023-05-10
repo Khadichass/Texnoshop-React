@@ -18,87 +18,102 @@ function Products() {
         <h1 className="products_h1">
           Your <span>Products</span>
         </h1>
-        <div>
-          <div>
-            <div>
+        {/* Products Card */}
+        <div className="allcards">
+          <div className="productcard">
+            <div className="productcard_img">
               <img src={product1} alt="product1" />
             </div>
-            <div>
+            <div className="productcard_text">
               <h2>Smartphone</h2>
-              <h3>Quantity:</h3>
-              <input type="text" />
+              <div className="productcard_input">
+                <h3>Quantity:</h3>
+                <input type="text" />
+              </div>
               <p>
                 $249.99 <span>$399.99</span>
               </p>
             </div>
           </div>
-          <div>
-            <div>
-              <img src={product2} alt="product1" />
+          <div className="productcard">
+            <div className="productcard_img">
+              <img src={product1} alt="product1" />
             </div>
-            <div>
+            <div className="productcard_text">
               <h2>Smartphone</h2>
-              <h3>Quantity:</h3>
-              <input type="text" />
+              <div className="productcard_input">
+                <h3>Quantity:</h3>
+                <input type="text" />
+              </div>
               <p>
                 $249.99 <span>$399.99</span>
               </p>
             </div>
           </div>
-          <div>
-            <div>
-              <img src={product3} alt="product1" />
+          <div className="productcard">
+            <div className="productcard_img">
+              <img src={product1} alt="product1" />
             </div>
-            <div>
+            <div className="productcard_text">
               <h2>Smartphone</h2>
-              <h3>Quantity:</h3>
-              <input type="text" />
+              <div className="productcard_input">
+                <h3>Quantity:</h3>
+                <input type="text" />
+              </div>
               <p>
                 $249.99 <span>$399.99</span>
               </p>
             </div>
           </div>
-          <div>
-            <div>
-              <img src={product4} alt="product1" />
+          <div className="productcard">
+            <div className="productcard_img">
+              <img src={product1} alt="product1" />
             </div>
-            <div>
+            <div className="productcard_text">
               <h2>Smartphone</h2>
-              <h3>Quantity:</h3>
-              <input type="text" />
+              <div className="productcard_input">
+                <h3>Quantity:</h3>
+                <input type="text" />
+              </div>
               <p>
                 $249.99 <span>$399.99</span>
               </p>
             </div>
           </div>
-          <div>
-            <div>
-              <img src={product5} alt="product1" />
+          <div className="productcard">
+            <div className="productcard_img">
+              <img src={product1} alt="product1" />
             </div>
-            <div>
+            <div className="productcard_text">
               <h2>Smartphone</h2>
-              <h3>Quantity:</h3>
-              <input type="text" />
+              <div className="productcard_input">
+                <h3>Quantity:</h3>
+                <input type="text" />
+              </div>
               <p>
                 $249.99 <span>$399.99</span>
               </p>
             </div>
           </div>
-          <div>
-            <div>
-              <img src={product6} alt="product1" />
+          <div className="productcard">
+            <div className="productcard_img">
+              <img src={product1} alt="product1" />
             </div>
-            <div>
+            <div className="productcard_text">
               <h2>Smartphone</h2>
-              <h3>Quantity:</h3>
-              <input type="text" />
+              <div className="productcard_input">
+                <h3>Quantity:</h3>
+                <input type="text" />
+              </div>
               <p>
                 $249.99 <span>$399.99</span>
               </p>
             </div>
           </div>
         </div>
+        {/* Products Card */}
       </div>
+
       <Footer />
     </div>
   );

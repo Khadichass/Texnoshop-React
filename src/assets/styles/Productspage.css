@@ -26,3 +26,24 @@ body {
   text-align: center;
   padding: 40px;
 }
+
+/* Products card */
+
+.allcards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.productcard {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 2%;
+}
+
+.productcard_img > img {
+  height: 200px;
+}
+/* Products card */
