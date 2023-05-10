@@ -32,6 +32,71 @@ function Products() {
               </p>
             </div>
           </div>
+          <div>
+            <div>
+              <img src={product2} alt="product1" />
+            </div>
+            <div>
+              <h2>Smartphone</h2>
+              <h3>Quantity:</h3>
+              <input type="text" />
+              <p>
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src={product3} alt="product1" />
+            </div>
+            <div>
+              <h2>Smartphone</h2>
+              <h3>Quantity:</h3>
+              <input type="text" />
+              <p>
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src={product4} alt="product1" />
+            </div>
+            <div>
+              <h2>Smartphone</h2>
+              <h3>Quantity:</h3>
+              <input type="text" />
+              <p>
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src={product5} alt="product1" />
+            </div>
+            <div>
+              <h2>Smartphone</h2>
+              <h3>Quantity:</h3>
+              <input type="text" />
+              <p>
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src={product6} alt="product1" />
+            </div>
+            <div>
+              <h2>Smartphone</h2>
+              <h3>Quantity:</h3>
+              <input type="text" />
+              <p>
+                $249.99 <span>$399.99</span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
