@@ -37,7 +37,7 @@ function Products() {
           </div>
           <div className="productcard">
             <div className="productcard_img">
-              <img src={product1} alt="product1" />
+              <img src={product2} alt="product1" />
             </div>
             <div className="productcard_text">
               <h2>Smartphone</h2>
@@ -52,7 +52,7 @@ function Products() {
           </div>
           <div className="productcard">
             <div className="productcard_img">
-              <img src={product1} alt="product1" />
+              <img src={product3} alt="product1" />
             </div>
             <div className="productcard_text">
               <h2>Smartphone</h2>
@@ -67,7 +67,7 @@ function Products() {
           </div>
           <div className="productcard">
             <div className="productcard_img">
-              <img src={product1} alt="product1" />
+              <img src={product4} alt="product1" />
             </div>
             <div className="productcard_text">
               <h2>Smartphone</h2>
@@ -82,7 +82,7 @@ function Products() {
           </div>
           <div className="productcard">
             <div className="productcard_img">
-              <img src={product1} alt="product1" />
+              <img src={product5} alt="product1" />
             </div>
             <div className="productcard_text">
               <h2>Smartphone</h2>
@@ -97,7 +97,7 @@ function Products() {
           </div>
           <div className="productcard">
             <div className="productcard_img">
-              <img src={product1} alt="product1" />
+              <img src={product6} alt="product1" />
             </div>
             <div className="productcard_text">
               <h2>Smartphone</h2>

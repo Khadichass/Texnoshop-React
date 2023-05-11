@@ -11,6 +11,14 @@
         ]
       }
     ],
-    "axe/forms": "off"
+    "axe/forms": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "width: fit-content"
+        ]
+      }
+    ]
   }
 }

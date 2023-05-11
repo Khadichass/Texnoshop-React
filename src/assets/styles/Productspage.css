@@ -32,7 +32,9 @@ body {
 .allcards {
   display: grid;
   grid-template-columns: auto auto auto;
+  justify-content: center;
   gap: 20px;
+  padding-bottom: 5%;
 }
 .productcard {
   display: flex;
@@ -40,10 +42,26 @@ body {
   border: 2px solid black;
   border-radius: 10px;
   background-color: white;
-  padding: 2%;
+  padding: 4%;
+  width: 400px;
 }
 
 .productcard_img > img {
-  height: 200px;
+  height: 140px;
+}
+
+.productcard_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.productcard_text > h2 {
+  color: var(--grey);
+  font-size: 19px;
+}
+
+.productcard_input {
+  display: flex;
 }
 /* Products card */
