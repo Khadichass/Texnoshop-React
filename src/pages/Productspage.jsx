@@ -31,7 +31,7 @@ function Products() {
                 <input type="text" />
               </div>
               <p>
-                $249.99 <span>$399.99</span>
+                $249.99 <span className="spanB">$399.99</span>
               </p>
             </div>
           </div>
@@ -46,7 +46,7 @@ function Products() {
                 <input type="text" />
               </div>
               <p>
-                $249.99 <span>$399.99</span>
+                $249.99 <span className="spanB">$399.99</span>
               </p>
             </div>
           </div>
@@ -105,10 +105,9 @@ function Products() {
                 <h3>Quantity:</h3>
                 <input type="text" />
               </div>
-              <div className="">
-                <p>$249.99</p>
-                <p className="secondP">$399.99</p>
-              </div>
+              <p>
+                $249.99 <span className="spanB">$399.99</span>
+              </p>
             </div>
           </div>
         </div>
