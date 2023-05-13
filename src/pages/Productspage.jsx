@@ -61,7 +61,7 @@ function Products() {
                 <input type="text" />
               </div>
               <p>
-                $249.99 <span>$399.99</span>
+                $249.99 <span className="spanB">$399.99</span>
               </p>
             </div>
           </div>
@@ -76,7 +76,7 @@ function Products() {
                 <input type="text" />
               </div>
               <p>
-                $249.99 <span>$399.99</span>
+                $249.99 <span className="spanB">$399.99</span>
               </p>
             </div>
           </div>
@@ -91,7 +91,7 @@ function Products() {
                 <input type="text" />
               </div>
               <p>
-                $249.99 <span>$399.99</span>
+                $249.99 <span className="spanB">$399.99</span>
               </p>
             </div>
           </div>
