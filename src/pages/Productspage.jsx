@@ -105,9 +105,10 @@ function Products() {
                 <h3>Quantity:</h3>
                 <input type="text" />
               </div>
-              <p>
-                $249.99 <span>$399.99</span>
-              </p>
+              <div className="">
+                <p>$249.99</p>
+                <p className="secondP">$399.99</p>
+              </div>
             </div>
           </div>
         </div>

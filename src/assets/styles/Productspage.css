@@ -63,5 +63,30 @@ body {
 
 .productcard_input {
   display: flex;
+  gap: 5px;
+}
+
+.productcard_input > h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--grey);
+}
+
+.productcard_input > input {
+  background-color: rgb(224, 221, 221);
+  border: 1px solid rgb(224, 221, 221);
+  border-radius: 5px;
+  width: 50%;
+}
+
+.productcard_text > p {
+  color: var(--blue);
+  font-size: 20px;
+}
+
+.secondP {
+  color: var(--grey);
+  font-size: 17px;
+  text-decoration: line-through;
 }
 /* Products card */
