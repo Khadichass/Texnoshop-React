@@ -9,6 +9,7 @@ function Contact() {
       <Header />
       <div>
         <div></div>
+        <div></div>
       </div>
       <Footer />
     </div>
