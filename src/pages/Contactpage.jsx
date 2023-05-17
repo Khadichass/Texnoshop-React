@@ -24,7 +24,22 @@ function Contact() {
             <p>+111-222-3333</p>
           </div>
         </div>
-        <div></div>
+        <div>
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                class="gmap_iframe"
+                width="100%"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Tashkent&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe>
+              <a href="https://capcuttemplate.org/">Capcut Template</a>
+            </div>
+          </div>
+        </div>
         <div></div>
       </div>
       <Footer />
