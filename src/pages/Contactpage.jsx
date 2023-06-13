@@ -36,7 +36,6 @@ function Contact() {
                 marginwidth="0"
                 src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Tashkent&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe>
-              <a href="https://capcuttemplate.org/">Capcut Template</a>
             </div>
           </div>
         </div>
