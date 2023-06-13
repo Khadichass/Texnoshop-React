@@ -25,8 +25,8 @@ function Contact() {
           </div>
         </div>
         <div>
-          <div class="mapouter">
-            <div class="gmap_canvas">
+          <div className="mapouter">
+            <div className="gmap_canvas">
               <iframe
                 class="gmap_iframe"
                 width="100%"
@@ -39,7 +39,7 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="">
           <div></div>
           <div></div>
         </div>
