@@ -25,6 +25,16 @@ function Contact() {
           </div>
         </div>
         <div>
+          <div className="formSection">
+            <h1>GET IN TOUCH</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              rem cumque odit, voluptates perferendis accusantium consequatur
+              tempora velit ratione et nesciunt.
+            </p>
+            <div></div>
+            <div></div>
+          </div>
           <div className="mapouter">
             <div className="gmap_canvas">
               <iframe
@@ -38,10 +48,6 @@ function Contact() {
               ></iframe>
             </div>
           </div>
-        </div>
-        <div className="">
-          <div></div>
-          <div></div>
         </div>
       </div>
       <Footer />
