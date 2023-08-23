@@ -14,6 +14,7 @@ import "./assets/styles/Homepage.css";
 import "./assets/styles/Aboutpage.css";
 import "./assets/styles/Productspage.css";
 import "./assets/styles/Footer.css";
+import "./pages/styles/Cartpage.css"
 
 function App() {
   return (
